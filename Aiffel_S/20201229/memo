@@ -5,6 +5,7 @@ conda activate aiffel
 
 
 #원래는 이걸 한줄에 다적었었는데 그러면 무슨 장치 머시라 땜에 시간이 오래걸려서 이렇게 쪼개야 됨
+#もともとはこれを一列に書いたけどそうしたら装置なんちゃらのせいで時間がかかってしまうのでこうやって割れて実行するべき
 ##conda create -n aiffel python=3.7 -y && conda activate aiffel && conda install -c conda-forge anaconda notebook matplotlib tensorflow-gpu pandas seaborn cmake -y && python -m ipykernel install --user --name aiffel --display-name "aiffel" && echo "export TF_FORCE_GPU_ALLOW_GROWTH=true" >> ~/.bashrc && exit
 
 conda install anaconda notebook -y
