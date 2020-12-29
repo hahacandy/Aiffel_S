@@ -3,6 +3,8 @@ conda activate aiffel
 conda create -n aiffel python=3.7 -y 
 conda activate aiffel 
 
+
+#원래는 이걸 한줄에 다적었었는데 그러면 무슨 장치 머시라 땜에 시간이 오래걸려서 이렇게 쪼개야 됨
 conda install anaconda notebook -y
 conda install matplotlib -y
 conda install tensorflow-gpu -y
