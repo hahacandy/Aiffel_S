@@ -5,6 +5,8 @@ conda activate aiffel
 
 
 #원래는 이걸 한줄에 다적었었는데 그러면 무슨 장치 머시라 땜에 시간이 오래걸려서 이렇게 쪼개야 됨
+##conda create -n aiffel python=3.7 -y && conda activate aiffel && conda install -c conda-forge anaconda notebook matplotlib tensorflow-gpu pandas seaborn cmake -y && python -m ipykernel install --user --name aiffel --display-name "aiffel" && echo "export TF_FORCE_GPU_ALLOW_GROWTH=true" >> ~/.bashrc && exit
+
 conda install anaconda notebook -y
 conda install matplotlib -y
 conda install tensorflow-gpu -y
@@ -12,8 +14,10 @@ conda install pandas -y
 conda install seaborn -y
 conda install cmake -y
 
+
 python -m ipykernel install --user --name aiffel --display-name "aiffel" 
 echo "export TF_FORCE_GPU_ALLOW_GROWTH=true" >> ~/.bashrc 
+
 
 
 jupyter notebook --NotebookApp.token=test-secret --NotebookApp.allow_origin='https://aiffelstaticprd.blob.core.windows.net' --no-browser
