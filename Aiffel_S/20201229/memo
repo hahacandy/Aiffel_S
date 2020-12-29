@@ -1,0 +1,22 @@
+conda activate aiffel
+
+conda create -n aiffel python=3.7 -y 
+conda activate aiffel 
+
+conda install anaconda notebook -y
+conda install matplotlib -y
+conda install tensorflow-gpu -y
+conda install pandas -y
+conda install seaborn -y
+conda install cmake -y
+
+python -m ipykernel install --user --name aiffel --display-name "aiffel" 
+echo "export TF_FORCE_GPU_ALLOW_GROWTH=true" >> ~/.bashrc 
+
+
+jupyter notebook --NotebookApp.token=test-secret --NotebookApp.allow_origin='https://aiffelstaticprd.blob.core.windows.net' --no-browser
+
+
+
+
+#conda env remove -n aiffel
