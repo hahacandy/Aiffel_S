@@ -1,6 +1,6 @@
 강의 영상   
 https://www.youtube.com/watch?v=OoUX-nOEjG0&t=808s   
-슬라이드 노트
+슬라이드 노트   
 https://drive.google.com/file/d/1aFHMYYveuN8R4NxWAA7QTFzwl_REdFOb/view?usp=sharing   
 KNN demo   
 http://vision.stanford.edu/teaching/cs231n-demos/knn/   
