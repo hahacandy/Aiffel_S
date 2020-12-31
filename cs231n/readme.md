@@ -17,6 +17,6 @@ https://drive.google.com/file/d/1Gx7dlpnP0ZTvtE8gCdpHLpUXXYwLXBhS/view?usp=shari
 VLC media player 설치 후 플레이
 
 
-#Korean Subtitles for CS231n Spring 2017
-#1CS231n 한글번역
+# Korean Subtitles for CS231n Spring 2017
+## CS231n 한글번역
 https://github.com/visionNoob/CS231N_17_KOR_SUB
