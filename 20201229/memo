@@ -10,12 +10,12 @@ sudo ubuntu-drivers autoinstall
 #もともとはこれを一列に書いたけどそうしたら装置なんちゃらのせいで時間がかかってしまうのでこうやって割って実行するべき
 ##conda create -n aiffel python=3.7 -y && conda activate aiffel && conda install -c conda-forge anaconda notebook matplotlib tensorflow-gpu pandas seaborn cmake -y && python -m ipykernel install --user --name aiffel --display-name "aiffel" && echo "export TF_FORCE_GPU_ALLOW_GROWTH=true" >> ~/.bashrc && exit
 
-conda -c conda-forge anaconda notebook -y
-conda -c conda-forge matplotlib -y
-conda -c conda-forge tensorflow-gpu -y
-conda -c conda-forge pandas -y
-conda -c conda-forge seaborn -y
-conda -c conda-forge cmake -y
+conda install -c conda-forge anaconda notebook -y
+conda install -c conda-forge matplotlib -y
+conda install -c conda-forge tensorflow-gpu -y
+conda install -c conda-forge pandas -y
+conda install -c conda-forge seaborn -y
+conda install -c conda-forge cmake -y
 
 
 python -m ipykernel install --user --name aiffel --display-name "aiffel" 
