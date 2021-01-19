@@ -1,0 +1,8 @@
+@channel
+스피커 작동 안 되시는 분들 주목!!
+터미널에
+sudo gedit /etc/modprobe.d/alsa-base.conf
+를 입력해주시고 가장 아래에 다음 텍스트를 추가해주세요.
+options snd-hda-intel model=asus-zenbook
+그 다음 리부팅을 하시면 정상적으로 작동될 것입니다!
+위 솔루션은 @이경원(대전) 님께서 제공해주셨습니다!:blob_excited:
