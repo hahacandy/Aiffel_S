@@ -1,2 +1,7 @@
 
 EXPLORATION_DJ/4/GoogleNews-vectors-negative300.bin.gz
+EXPLORATION_DJ/5/models/wav/checkpoint
+EXPLORATION_DJ/5/models/wav/.index
+EXPLORATION_DJ/5/models/wav/.data-00001-of-00002
+EXPLORATION_DJ/5/models/wav/.data-00000-of-00002
+EXPLORATION_DJ/5/speech_wav_8000.npz
