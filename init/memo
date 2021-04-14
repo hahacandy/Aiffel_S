@@ -29,3 +29,17 @@ jupyter notebook --NotebookApp.token=test-secret --NotebookApp.allow_origin='htt
 
 
 #conda env remove -n aiffel
+
+
+
+혹시나 그래픽 드라이버 설치하는데 의존성 머시라 하면서 안될경우는
+sudo dpkg --purge $(dpkg -l | grep nvidia | awk '{print $2}')
+sudo dpkg --purge $(dpkg -l | grep libnvidia | awk '{print $2}')
+
+sudo dpkg --purge $(dpkg -l | grep cuda | awk '{print $2}')
+sudo dpkg --purge libcuinj64-10.1:amd64
+
+sudo dpkg --purge $(dpkg -l | grep nvidia | awk '{print $2}')
+sudo dpkg --purge $(dpkg -l | grep libnvidia | awk '{print $2}')
+후에
+sudo ubuntu-drivers autoinstall
