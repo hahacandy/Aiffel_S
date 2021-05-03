@@ -9,3 +9,13 @@ pip install wandb
 wandb.aiwandb.ai
 Weights & Biases – Developer tools for ML
 A central dashboard to keep track of your hyperparameters, system metrics, and predictions so you can compare models live, and share your findings. (133kB)
+
+
+
+
+
+
+
+
+
+17-8 에러는 tensorflow 버전이 2.3 이상이면 잘 동작하는 것 같습니다. 텐서플로우-gpu업데이트 혹은 재설치 후 진행해주세요!
