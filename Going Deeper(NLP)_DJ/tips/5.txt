@@ -1,6 +1,0 @@
-정혜미(대전)  오후 3:57
-gensim 4.0.1 버전 기준으로 5-7의 예제코드는 다음과 같이 변경되어야 합니다.
-from gensim.models import Word2Vec
-model = Word2Vec(sentences = corpus, vector_size=100, window = 5, min_count = 5, workers = 4, sg = 0)
-print("모델 학습 완료!")
-argument의 이름이 변경되었습니다.
